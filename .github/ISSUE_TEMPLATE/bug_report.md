@@ -39,29 +39,16 @@ assignees: ""
 - Browser / runtime:
 - Version:
 
+
 ## Stack Trace / Logs
 <!-- Paste error output, stack traces, or relevant logs inside the code block below. -->
 ```
 ```
 
+
 ## Relevant Images
 <!-- Drag-and-drop screenshots or screen recordings here. Delete this section if none. -->
 
-
-## Priority
-<!-- Check one. Mirrors the Priority field on the project board. -->
-- [ ] Urgent
-- [ ] High
-- [ ] Medium
-- [ ] Low
-
-## Size
-<!-- Check one. Mirrors the Size field on the project board. -->
-- [ ] XS
-- [ ] S
-- [ ] M
-- [ ] L
-- [ ] XL
 
 ## Additional Context
 <!-- Anything else worth noting: related issues, recent changes, suspected cause, workarounds. -->

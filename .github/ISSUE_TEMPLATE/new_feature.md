@@ -32,6 +32,7 @@ assignees: ""
 - [ ]
 - [ ]
 
+
 ## Out of Scope
 <!-- Anything explicitly NOT part of this feature. Delete if not applicable. -->
 
@@ -43,21 +44,6 @@ assignees: ""
 ## Dependencies
 <!-- Blocked by / blocks / related issues or PRs. Delete if none. -->
 
-
-## Priority
-<!-- Check one. Mirrors the Priority field on the project board. -->
-- [ ] Urgent
-- [ ] High
-- [ ] Medium
-- [ ] Low
-
-## Size
-<!-- Check one. Mirrors the Size field on the project board. -->
-- [ ] XS
-- [ ] S
-- [ ] M
-- [ ] L
-- [ ] XL
 
 ## Additional Context
 <!-- Anything else worth noting. -->
