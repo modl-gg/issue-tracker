@@ -1,0 +1,67 @@
+name: Task / Chore
+description: Track a unit of work, maintenance, or chore
+title: "[Task]: "
+type: Task
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: One sentence describing the task.
+    validations:
+      required: true
+
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What needs to be done and why it matters.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope-of-work
+    attributes:
+      label: Scope of Work
+      description: Break the task into concrete, checkable steps.
+      value: |
+        - [ ]
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+
+  - type: input
+    id: affected-area
+    attributes:
+      label: Affected Area / Component
+      description: Which repo, service, page, or module this touches. File paths welcome (e.g. src/api/auth.ts).
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: How we know this task is done.
+      value: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+
+  - type: textarea
+    id: images
+    attributes:
+      label: Relevant Images
+      description: Drag-and-drop diagrams, screenshots, or references here. Leave blank if none.
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Blocked by / blocks / related issues or PRs. Leave blank if none.
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Anything else worth noting.

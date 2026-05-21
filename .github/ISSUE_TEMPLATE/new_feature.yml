@@ -1,0 +1,78 @@
+name: New Feature
+description: Track a new feature to be built
+title: "[Feature]: "
+type: Feature
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: One sentence describing the feature.
+    validations:
+      required: true
+
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview
+      description: What is this feature and what should it do?
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Problem / Motivation
+      description: What problem does this solve, or what does it enable?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the intended behavior, flow, or approach.
+    validations:
+      required: true
+
+  - type: input
+    id: affected-area
+    attributes:
+      label: Affected Area / Component
+      description: Which repo, service, page, or module this involves. File paths welcome (e.g. src/api/auth.ts).
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: The conditions that must be met for this feature to be considered complete.
+      value: |
+        - [ ]
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of Scope
+      description: Anything explicitly NOT part of this feature. Leave blank if not applicable.
+
+  - type: textarea
+    id: images
+    attributes:
+      label: Relevant Images
+      description: Drag-and-drop mockups, designs, or references here. Leave blank if none.
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Blocked by / blocks / related issues or PRs. Leave blank if none.
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Anything else worth noting.
